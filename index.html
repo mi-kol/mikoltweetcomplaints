@@ -8,5 +8,29 @@
 </head>
 <body>
     <h1 style="padding-left: 10px">don't care</h1>
-</body>
+    <div style="height: 300px;"></div>
+    <p style="padding-left: 10px">
+        No seriously, I do care. If you have something to say, go ahead and submit it here and I'll get back to you. I'm sure I said something out of line, and I apologize for that. Let me know how I can make amends.
+    </p>
+    <form name="complaints" method="POST" data-netlify="true" action="/success.html">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Your twitter handle: <input type="text" name="text"></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <label>How can I make amends? <textarea name="amends"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Submit</button>
+        </p>
+      </form>
+    </body>
 </html>
